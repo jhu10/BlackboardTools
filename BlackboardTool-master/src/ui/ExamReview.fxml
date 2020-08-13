@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.fxml.*?>
+
+<AnchorPane prefHeight="765.0" prefWidth="809.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Group layoutY="-14.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0000ff2d" height="129.0" layoutX="14.0" layoutY="224.0" stroke="BLACK" strokeType="INSIDE" width="784.0" />
+            <Group>
+               <children>
+                  <Button id="selectButton" layoutX="581.0" layoutY="268.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="51.0" style="-fx-background-image: url(https://www.google.com/url?sa=i&amp;rct=j&amp;q=&amp;esrc=s&amp;source=images&amp;cd=&amp;ved=0ahUKEwjP0YG6poXYAhWll-AKHdPTClAQjRwIBw&amp;url=http%3A%2F%2Fokami.wikia.com%2Fwiki%2FFile%3ACheck_mark.png&amp;psig=AOvVaw0E4mz7TLL58ToXFm_nr7lO&amp;ust=1513196520046135); -fx-graphic: url(https://www.google.com/url?sa=i&amp;rct=j&amp;q=&amp;esrc=s&amp;source=images&amp;cd=&amp;ved=0ahUKEwjP0YG6poXYAhWll-AKHdPTClAQjRwIBw&amp;url=http%3A%2F%2Fokami.wikia.com%2Fwiki%2FFile%3ACheck_mark.png&amp;psig=AOvVaw0E4mz7TLL58ToXFm_nr7lO&amp;ust=1513196520046135);">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="40.0" fitWidth="30.0" layoutX="592.0" layoutY="274.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/Check_mark.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Group>
+            <Group>
+               <children>
+                  <Button layoutX="713.0" layoutY="268.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="51.0">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="40.0" fitWidth="30.0" layoutX="724.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/X.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Group>
+            <Group>
+               <children>
+                  <Button layoutX="647.0" layoutY="268.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="51.0">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="40.0" fitWidth="30.0" layoutX="658.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/Pencil.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Group>
+            <Label alignment="CENTER" layoutX="28.0" layoutY="238.0" text="Question #1" wrapText="true">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Text layoutX="28.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel tortor vehicula quam pellentesque imperdiet. Proin at neque egestas, consectetur neque nec, condimentum nunc. Curabitur sed sapien nec velit mattis malesuada eget nec mauris." wrappingWidth="500.0" />
+         </children>
+      </Group>
+      <Pane prefHeight="150.0" prefWidth="809.0" style="-fx-background-color: #006666;">
+         <children>
+            <MenuBar prefHeight="40.0" prefWidth="809.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Delete" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+         </children>
+      </Pane>
+      <Button layoutX="590.0" layoutY="159.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="97.0" text="Filter">
+         <effect>
+            <Blend />
+         </effect>
+      </Button>
+      <Button layoutX="698.0" layoutY="159.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="97.0" text="Select" textAlignment="CENTER" wrapText="true" />
+      <Button layoutX="14.0" layoutY="159.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="97.0" text="Return" />
+      <Button layoutX="120.0" layoutY="159.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="149.0" text="Add Another Question" />
+      <Group layoutY="121.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0000ff2d" height="129.0" layoutX="14.0" layoutY="224.0" stroke="BLACK" strokeType="INSIDE" width="784.0" />
+            <Group>
+               <children>
+                  <Button id="selectButton" layoutX="581.0" layoutY="268.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="51.0" style="-fx-background-image: url(https://www.google.com/url?sa=i&amp;rct=j&amp;q=&amp;esrc=s&amp;source=images&amp;cd=&amp;ved=0ahUKEwjP0YG6poXYAhWll-AKHdPTClAQjRwIBw&amp;url=http%3A%2F%2Fokami.wikia.com%2Fwiki%2FFile%3ACheck_mark.png&amp;psig=AOvVaw0E4mz7TLL58ToXFm_nr7lO&amp;ust=1513196520046135); -fx-graphic: url(https://www.google.com/url?sa=i&amp;rct=j&amp;q=&amp;esrc=s&amp;source=images&amp;cd=&amp;ved=0ahUKEwjP0YG6poXYAhWll-AKHdPTClAQjRwIBw&amp;url=http%3A%2F%2Fokami.wikia.com%2Fwiki%2FFile%3ACheck_mark.png&amp;psig=AOvVaw0E4mz7TLL58ToXFm_nr7lO&amp;ust=1513196520046135);">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="40.0" fitWidth="30.0" layoutX="592.0" layoutY="274.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/Check_mark.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Group>
+            <Group>
+               <children>
+                  <Button layoutX="713.0" layoutY="268.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="51.0">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="40.0" fitWidth="30.0" layoutX="724.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/X.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Group>
+            <Group>
+               <children>
+                  <Button layoutX="647.0" layoutY="268.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="51.0">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="40.0" fitWidth="30.0" layoutX="658.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/Pencil.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Group>
+            <Label alignment="CENTER" layoutX="28.0" layoutY="238.0" text="Question #2" wrapText="true">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Text layoutX="28.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel tortor vehicula quam pellentesque imperdiet. Proin at neque egestas, consectetur neque nec, condimentum nunc. Curabitur sed sapien nec velit mattis malesuada eget nec mauris." wrappingWidth="500.0" />
+         </children>
+      </Group>
+      <Group layoutY="256.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0000ff2d" height="129.0" layoutX="14.0" layoutY="224.0" stroke="BLACK" strokeType="INSIDE" width="784.0" />
+            <Group>
+               <children>
+                  <Button id="selectButton" layoutX="581.0" layoutY="268.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="51.0" style="-fx-background-image: url(https://www.google.com/url?sa=i&amp;rct=j&amp;q=&amp;esrc=s&amp;source=images&amp;cd=&amp;ved=0ahUKEwjP0YG6poXYAhWll-AKHdPTClAQjRwIBw&amp;url=http%3A%2F%2Fokami.wikia.com%2Fwiki%2FFile%3ACheck_mark.png&amp;psig=AOvVaw0E4mz7TLL58ToXFm_nr7lO&amp;ust=1513196520046135); -fx-graphic: url(https://www.google.com/url?sa=i&amp;rct=j&amp;q=&amp;esrc=s&amp;source=images&amp;cd=&amp;ved=0ahUKEwjP0YG6poXYAhWll-AKHdPTClAQjRwIBw&amp;url=http%3A%2F%2Fokami.wikia.com%2Fwiki%2FFile%3ACheck_mark.png&amp;psig=AOvVaw0E4mz7TLL58ToXFm_nr7lO&amp;ust=1513196520046135);">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="40.0" fitWidth="30.0" layoutX="592.0" layoutY="274.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/Check_mark.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Group>
+            <Group>
+               <children>
+                  <Button layoutX="713.0" layoutY="268.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="51.0">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="40.0" fitWidth="30.0" layoutX="724.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/X.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Group>
+            <Group>
+               <children>
+                  <Button layoutX="647.0" layoutY="268.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="51.0">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="40.0" fitWidth="30.0" layoutX="658.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/Pencil.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Group>
+            <Label alignment="CENTER" layoutX="28.0" layoutY="238.0" text="Question #3" wrapText="true">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Text layoutX="28.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel tortor vehicula quam pellentesque imperdiet. Proin at neque egestas, consectetur neque nec, condimentum nunc. Curabitur sed sapien nec velit mattis malesuada eget nec mauris." wrappingWidth="500.0" />
+         </children>
+      </Group>
+      <Group layoutY="392.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0000ff2d" height="129.0" layoutX="14.0" layoutY="224.0" stroke="BLACK" strokeType="INSIDE" width="784.0" />
+            <Group>
+               <children>
+                  <Button id="selectButton" layoutX="581.0" layoutY="268.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="51.0" style="-fx-background-image: url(https://www.google.com/url?sa=i&amp;rct=j&amp;q=&amp;esrc=s&amp;source=images&amp;cd=&amp;ved=0ahUKEwjP0YG6poXYAhWll-AKHdPTClAQjRwIBw&amp;url=http%3A%2F%2Fokami.wikia.com%2Fwiki%2FFile%3ACheck_mark.png&amp;psig=AOvVaw0E4mz7TLL58ToXFm_nr7lO&amp;ust=1513196520046135); -fx-graphic: url(https://www.google.com/url?sa=i&amp;rct=j&amp;q=&amp;esrc=s&amp;source=images&amp;cd=&amp;ved=0ahUKEwjP0YG6poXYAhWll-AKHdPTClAQjRwIBw&amp;url=http%3A%2F%2Fokami.wikia.com%2Fwiki%2FFile%3ACheck_mark.png&amp;psig=AOvVaw0E4mz7TLL58ToXFm_nr7lO&amp;ust=1513196520046135);">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="40.0" fitWidth="30.0" layoutX="592.0" layoutY="274.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/Check_mark.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Group>
+            <Group>
+               <children>
+                  <Button layoutX="713.0" layoutY="268.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="51.0">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="40.0" fitWidth="30.0" layoutX="724.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/X.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Group>
+            <Group>
+               <children>
+                  <Button layoutX="647.0" layoutY="268.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="51.0">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="40.0" fitWidth="30.0" layoutX="658.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/Pencil.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Group>
+            <Label alignment="CENTER" layoutX="28.0" layoutY="238.0" text="Question #4" wrapText="true">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Text layoutX="28.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel tortor vehicula quam pellentesque imperdiet. Proin at neque egestas, consectetur neque nec, condimentum nunc. Curabitur sed sapien nec velit mattis malesuada eget nec mauris." wrappingWidth="500.0" />
+         </children>
+      </Group>
+      <ScrollBar layoutX="802.0" layoutY="210.0" orientation="VERTICAL" prefHeight="533.0" prefWidth="14.0" />
+      <Button layoutX="276.0" layoutY="159.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="97.0" text="Print" />
+   </children>
+   <effect>
+      <InnerShadow />
+   </effect>
+</AnchorPane>
